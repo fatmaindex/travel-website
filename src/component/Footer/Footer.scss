@@ -115,6 +115,7 @@
 }
 
 .cardDiv {
+  
     position: relative;
     display: flex;
     flex-direction: row;
@@ -266,7 +267,7 @@
    .footerInput{
     margin: 0;
    }
-    
+   
     .contactDiv {
         width: 90%;
         display: flex;
@@ -280,6 +281,7 @@
 
 
             h1 {
+    
                 font-weight: 800;
                 font-size: 28px;
             }

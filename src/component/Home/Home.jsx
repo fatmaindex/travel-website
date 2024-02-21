@@ -28,11 +28,11 @@ function Home() {
 
             <div  className="HomeContent container">
                 <div className="textDiv">
-                    <span data-aos='fade-up' className='smallText'>OUR PACAGES</span>
-                    <h1 data-aos='fade-up' className='homeTitle'>Search Your Holiday</h1>
+                    <span data-aos='fade-right' className='smallText'>OUR PACAGES</span>
+                    <h1 data-aos='fade-right' className='homeTitle'>Search Your Holiday</h1>
                 </div>
 
-                <div data-aos='fade-up' className="formDiv">
+                <div data-aos='fade-right' className="formDiv">
                     <div className="homeInputs">
 
                     <div className="searchDiv">
@@ -69,12 +69,12 @@ function Home() {
                 </div>
 
                 <div className="homeIcons" >
-                    <div className="rightIcons"data-aos='fade-up'>
+                    <div className="rightIcons"data-aos='fade-right'>
                         <SlSocialFacebook className='socialIcons' />
                         <IoLogoInstagram className='socialIcons' />
                         <FaTripadvisor className='socialIcons' />
                     </div>
-                    <div className="leftIcons" data-aos='fade-up'>
+                    <div className="leftIcons" data-aos='fade-right'>
                         <BsListUl className='socialIcons' />
                         <TbApps className='socialIcons' />
 
