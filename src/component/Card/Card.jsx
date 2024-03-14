@@ -9,7 +9,7 @@ function Card({imgSrc,destTitle,location,fees,discription}) {
   return (
     <div className='card' data-aos='fade-up'>
       <div className="imgDiv" >
-        <img src={imgSrc}></img>
+        <img  alt="img" src={imgSrc}></img>
       </div>
      <div className="cardContent">
      <div className="countryDiv">
