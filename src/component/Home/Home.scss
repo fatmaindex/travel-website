@@ -15,12 +15,13 @@
 
 .home {
     width: 100%;
-    height: 100vh;
-    display: flex;
+    top: 71px;
+     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     margin: auto;
+    padding: 8rem 0 4rem;
 
 }
 
@@ -48,8 +49,7 @@
 
 
 .HomeContent {
-    position: absolute;
-    top: 10rem;
+   
     z-index: 2;
     width: 100%;
  
@@ -220,8 +220,7 @@
     }
 
     .HomeContent {
-        position: absolute;
-        top: 6rem;
+        position: relative;
         width: 100%;
         align-items: stretch;
 

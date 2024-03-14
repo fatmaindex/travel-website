@@ -12,7 +12,7 @@ function Main() {
     },[])
   return (
     
-    <section className="mainSection container section">
+    <section className="mainSection container ">
 
       <div className="sectionTitle">
         <h1 className='mainTitle' data-aos='fade-up' >Most visited destinations</h1>
