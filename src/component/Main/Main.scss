@@ -1,0 +1,45 @@
+.mainSection {
+  width: 100%;
+  padding: 6rem 0 2rem;
+  .mainTitle {
+    color: var(--textColor);
+    position: relative;
+    margin: 0 0 1.5rem 18px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-weight: 700;
+    font-size: 20px;
+    &::before {
+      content: "";
+      width: 130px;
+      height: 4px;
+      background-color: var(--secondaryColor);
+      position: absolute;
+      top: 1.6rem;
+      left: 128px;
+    }
+  }
+}
+.sectionContent {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 1.5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .mainSection {
+    padding: 3rem 1.5rem;
+  }
+  .mainTitle {
+    &::before {
+      display: none;
+    }
+  }
+}

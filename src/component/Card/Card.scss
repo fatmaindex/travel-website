@@ -1,0 +1,108 @@
+.card {
+  width: 31%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 16px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2px 4px rgb(140 140 141 / 0.504);
+  box-shadow: 0 2px 4px rgb(140 140 141 / 0.504);
+  color: var(--textColor);
+  background-color: var(--cardBG);
+  &:hover {
+    background-color: var(--cardHover);
+    -webkit-box-shadow: 0 2px 4px rgb(85 85 114 / 0.504);
+    box-shadow: 0 2px 4px rgb(85 85 114 / 0.504);
+    -webkit-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    transition: 0.2s ease;
+  }
+}
+.imgDiv {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+    -webkit-transition: 2s ease;
+    -o-transition: 2s ease;
+    transition: 2s ease;
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+}
+.cardContent {
+  padding: 0 16px;
+}
+.countryDiv {
+  width: 100%;
+  border-bottom: 1px solid #b8b8b8;
+  padding: 16px 0;
+  h3 {
+    margin-bottom: 6px;
+  }
+  span {
+    font-size: 14px;
+  }
+  .glIcon {
+    font-size: 14px;
+  }
+}
+.secondDiv {
+  font-size: 16px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 16px 8px;
+  border-bottom: 1px solid #b8b8b8;
+}
+.cultural {
+  .btn {
+    border-radius: 3rem;
+    color: var(--whiteColor);
+    font-size: 9px;
+    padding: 2px 10px;
+  }
+  p {
+    text-transform: uppercase;
+  }
+}
+.descriptionDiv {
+  padding-top: 16px;
+  p {
+    padding-bottom: 14px;
+    font-size: 12px;
+  }
+  .detailsBtn {
+    color: var(--whiteColor);
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .imgDiv {
+    width: 100%;
+    height: 180px;
+  }
+}
