@@ -20,7 +20,8 @@ function Footer() {
       <div className="videoDiv">
         <video
           className="video2"
-          src={video2}
+          // src={video2}
+          src="/Assets/video2.mp4"
           autoPlay
           loop
           muted

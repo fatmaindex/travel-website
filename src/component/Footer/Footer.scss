@@ -5,8 +5,11 @@
 }
 .videoDiv {
   position: absolute;
-  width: 100%;
+  width: 100%;  
   height: 100%;
+  object-fit: cover;
+  display: block; 
+  z-index: -1;
   &::after {
     content: "";
     background-color: rgb(10 84 107 / 0.3);
