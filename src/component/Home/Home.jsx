@@ -62,8 +62,9 @@ function Home() {
 
             <div className="priceDiv">
               <div className="lable-total">
-                <h3>$5000</h3>
                 <label htmlFor="range">Max price:</label>
+
+                <h3>$5000</h3>
               </div>
               <div className="input">
                 <input type="range" max="5000" min="1000" className="range" />
