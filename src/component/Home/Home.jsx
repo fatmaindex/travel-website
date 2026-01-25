@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Home.scss";
-import video from "../../Assets/video.mp4";
+// import video from "../../Assets/video.mp4";
 import poster from "../../Assets/videoFrame.avif";
 import { SlSocialFacebook } from "react-icons/sl";
 import { IoLogoInstagram } from "react-icons/io";
@@ -20,7 +20,7 @@ function Home() {
     <section className="home">
       <video
         className="video"
-        src={video}
+        src="/Assets/video.mp4"
         autoPlay
         loop
         muted
@@ -52,7 +52,6 @@ function Home() {
                 <GrLocation className="glicon" />
               </div>
             </div>
-
             <div className="dateDiv">
               <label htmlFor="date">Select your date:</label>
               <div className="input">
