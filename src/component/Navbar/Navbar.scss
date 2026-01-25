@@ -5,10 +5,10 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--whiteColorDeam);
-  padding: 1rem 8% !important; 
+  padding: 1rem 8% !important;
   z-index: 1000;
   box-shadow: 0 2px 4px rgb(2 15 29 / 0.242);
-  transition: .5s ease; 
+  transition: 0.5s ease;
 }
 
 .logo {
@@ -17,7 +17,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  
+
   .icon {
     font-size: 25px;
     color: var(--primaryColor);
@@ -27,7 +27,7 @@
 
 .navBar {
   @media screen and (min-width: 768px) {
-    margin-left: auto; 
+    margin-left: auto;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -47,7 +47,7 @@
         font-size: 0.9rem;
         font-weight: 600;
         white-space: nowrap;
-        transition: .3s ease;
+        transition: 0.3s ease;
 
         &:hover {
           color: var(--primaryColor);
@@ -69,14 +69,14 @@
     border-radius: 1rem;
     box-shadow: 0 2px 4px rgb(2 15 29 / 0.904);
     position: absolute;
-    top: -500rem; 
+    top: -500rem;
     left: 10%;
     padding: 3rem 1rem 2rem;
     background-color: var(--whiteColorDeam);
     display: flex;
     flex-direction: column;
     z-index: 2000;
-    transition: top 0.7s cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: top 0.7s cubic-bezier(0.4, 0, 0.2, 1);
 
     .navList {
       flex-direction: column;
@@ -89,8 +89,8 @@
 
     .closeNavbar {
       position: absolute;
-      top: 1rem;    
-      right: 1.5rem; 
+      top: 1rem;
+      right: 1.5rem;
       color: var(--primaryColor);
       font-size: 25px;
       cursor: pointer;
@@ -102,7 +102,7 @@
   }
 
   .activeNavbar {
-    top: 7rem; 
+    top: 7rem;
   }
 }
 

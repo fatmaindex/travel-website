@@ -24,7 +24,7 @@ function Footer() {
           autoPlay
           loop
           muted
-          loading="lazy"
+          playsInline
         ></video>
       </div>
       <div className="secContent container section">
