@@ -20,14 +20,13 @@ function Home() {
     <section className="home">
       <video
         className="video"
-        src="/Assets/video.mp4"
+        src="/assets/video.mp4"
         autoPlay
         loop
         muted
         preload="auto"
         poster={poster}
       >
-        {" "}
       </video>
       <div className="overlay"></div>
       <div className="HomeContent container">
