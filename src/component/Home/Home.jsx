@@ -17,17 +17,19 @@ function Home() {
   }, []);
   return (
     <section className="home">
-      <video
-        className="video"
-        src="/video.mp4"
-        type="video/mp4"
-        autoPlay
-        loop
-        muted
-        preload="auto"
-        poster={poster}
-      >
-      </video>
+    <video
+  className="video"
+  autoPlay
+  loop
+  muted
+  playsInline
+  preload="auto"
+  poster={poster}
+>
+  <source src="/video.mp4" type="video/mp4" />
+  {/* لو المتصفح فشل تماماً هيعرض النص ده */}
+  Your browser does not support the video tag.
+</video>
       <div className="overlay"></div>
       <div className="HomeContent container">
         <div className="textDiv">
