@@ -17,9 +17,8 @@
   z-index: 1;
   background-color: #396e82;
   mix-blend-mode: hard-light;
-  /* ... الكود بتاعك ... */
-  z-index: 1; /* فوق الفيديو */
-  pointer-events: none; /* عشان ما يأثرش على التفاعل مع العناصر التانية */
+  z-index: 1;
+  pointer-events: none; 
 }
 
 .video {
@@ -29,11 +28,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 0; /* أضيفي دي عشان تضمني إنه في القاع */
+  z-index: 0; 
 }
 
 .HomeContent {
-  z-index: 2; /* فوق الكل */
+  z-index: 2; 
   position: relative;
   width: 100%;
   .textDiv {
