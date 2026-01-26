@@ -17,14 +17,17 @@ function Footer() {
   return (
     <section className="footerSection ">
       <div className="videoDiv">
-        <video
-          className="video2"
-          src="/assets/video2.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-        ></video>
+       <video
+    className="video2"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source src="/video2.mp4" type="video/mp4" />
+    {/* لو المتصفح مش قادر يشغل الفيديو هيعرض الرسالة دي */}
+    Your browser does not support the video tag.
+  </video>
       </div>
       <div className="secContent container section">
         <div className="contactDiv">
