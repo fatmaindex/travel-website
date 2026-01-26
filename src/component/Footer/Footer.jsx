@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./Footer.scss";
-// import video2 from "../../Assets/video2.mp4";
 import { FiSend } from "react-icons/fi";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import { FaTwitter } from "react-icons/fa";

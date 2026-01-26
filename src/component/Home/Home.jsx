@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./Home.scss";
-// import video from "../../Assets/video.mp4";
 import poster from "../../Assets/videoFrame.avif";
 import { SlSocialFacebook } from "react-icons/sl";
 import { IoLogoInstagram } from "react-icons/io";
