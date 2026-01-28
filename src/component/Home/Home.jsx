@@ -26,7 +26,7 @@ function Home() {
   preload="auto"
   poster={poster}
 >
-  <source src="/video.mp4" type="video/mp4" />
+  <source src="/video1.mp4" type="video/mp4" />
   {/* لو المتصفح فشل تماماً هيعرض النص ده */}
   Your browser does not support the video tag.
 </video>
