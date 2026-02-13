@@ -56,7 +56,7 @@ Note: Check out the live version here:
 
 ⚙️ How to Run Locally
 # Clone the repo
-git clone [Your-Repo-URL]
+git clone https://github.com/fatmaindex/travel-website
 
 # Install dependencies
 npm install
